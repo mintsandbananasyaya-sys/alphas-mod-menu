@@ -1,0 +1,19 @@
+{
+  "schemaVersion": 1,
+  "id": "autocrossbowloader",
+  "version": "${version}",
+  "name": "Auto Crossbow Loader",
+  "description": "Automates the inventory-swap crossbow loading glitch (arrows and fireworks) with a HUD, keybinds and safety checks.",
+  "authors": ["You"],
+  "license": "MIT",
+  "environment": "client",
+  "entrypoints": {
+    "client": ["dev.autocrossbow.AutoCrossbowLoaderClient"]
+  },
+  "depends": {
+    "fabricloader": ">=0.19.5",
+    "minecraft": "~1.21.11",
+    "java": ">=21",
+    "fabric-api": "*"
+  }
+}
