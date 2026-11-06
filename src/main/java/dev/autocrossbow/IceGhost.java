@@ -23,7 +23,7 @@ public final class IceGhost {
     public static final IceGhost INSTANCE = new IceGhost();
 
     /** Ticks to wait before swapping the ice back. 20 ticks = 1 second. */
-    private static final int RESTORE_TICKS = 8;
+    private static final int RESTORE_TICKS = 4;
 
     private boolean lastUseDown;
     private int restoreTimer;
